@@ -3,6 +3,7 @@ package pageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -33,11 +34,11 @@ public class Tests {
 
 
     }
-//
-//    @AfterTest
-//    public void quit() {
-//        driver.quit();
-//    }
+
+    @AfterTest
+    public void quit() {
+        driver.quit();
+    }
 
 
 }
