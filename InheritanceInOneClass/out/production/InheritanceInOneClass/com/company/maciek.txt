@@ -1,0 +1,46 @@
+package charProviderForAcRanks;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import paczka.MyLib;
+
+public class Main {
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", MyLib.CHROMEDRIVER_PATH); //to jest ścieżka do chrome drivera
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().setScriptTimeout(2,TimeUnit.SECONDS);
+
+		String baseUrl="https://test.front.isaacloud.com/management-etisalat/rankings/add";
+		driver.get(baseUrl);
+
+		Thread.sleep(250);
+
+		WebElement idForm = driver.findElement(By.xpath("//*[@id='app']/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/input"));
+
+		for (int counter=32; counter<=600; counter++) {
+			String stringCounter = Character.toString((char) counter);
+			idForm.clear();
+			idForm.sendKeys(stringCounter);
+			Thread.sleep(250);
+
+			System.out.println(counter);
+
+			try {
+				if (driver.findElement(By.xpath("//*[@id='app']/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/span[2]")).isDisplayed()){
+					System.out.format("\nZnak Unicode %d ( '%s' ) NIE przeszedł!", counter, stringCounter);
+				}
+			} catch (NoSuchElementException e) {}
+
+
+		}
+
+
+	}
+}
