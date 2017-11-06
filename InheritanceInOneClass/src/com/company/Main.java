@@ -1,4 +1,5 @@
 package com.company;
+import com.company.Konstruktory;
 
 class Bazowa {
     public final static int klasowa = 10;
@@ -83,6 +84,13 @@ public class Main {
         int ourBestScore = myScore > yourScore ? myScore : yourScore;
         System.out.println(ourBestScore);
 
+//--konstruktory
+        System.out.println("/---------------Konstruktory-----------------------/");
+        Konstruktory jedenArgument = new Konstruktory(1);
+        System.out.println(jedenArgument.x);
+
+        Konstruktory dwaArgumenty = new Konstruktory(2,3);
+        System.out.println(dwaArgumenty.y);
 
 
 
