@@ -92,13 +92,5 @@ public class Main {
         Konstruktory dwaArgumenty = new Konstruktory(2,3);
         System.out.println(dwaArgumenty.y);
 
-
-
-
-
-
-
-
-
     }
 }
