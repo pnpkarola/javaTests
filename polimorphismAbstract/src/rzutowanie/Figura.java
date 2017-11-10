@@ -1,9 +1,9 @@
-package polimorfizm;
+package rzutowanie;
 
 /**
  * Created by karol on 02.10.17.
  */
-public  class Figura {
+public   class Figura {
 
     public String color;
     public boolean wypelnienie;
@@ -22,6 +22,7 @@ public  class Figura {
     protected void Pokaz() {
         System.out.println( "Kolor :" + color + ", wypelnienie: " + wypelnienie);
     }
+
 
 
 

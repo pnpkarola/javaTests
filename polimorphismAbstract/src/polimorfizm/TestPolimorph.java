@@ -1,11 +1,8 @@
 package polimorfizm;
-
-import java.lang.reflect.Array;
-
 /**
  * Created by karol on 27.09.17.
  */
-public class Test {
+public class TestPolimorph {
     public static void main(String[] args) {
 
         Prostokat pr = new Prostokat(3, 4, "zielonego", false);
@@ -20,10 +17,11 @@ public class Test {
 
 //        arrayOfFig[0].Pokaz();
 //        arrayOfFig[1].Pokaz();
-// Dzieki temu ze wywolujemy metode pokaz
+// Dzieki polimorfizmowi wywolujemy  metode Pokaz na klasie bazowej Figura a i tak wiadomo skad ma wywolac Pokaz.
+// póżne wiązanie
         for (int i = 0; i < 2; ++i) {
             arrayOfFig[i].Pokaz();
-        }
+            }
 
 
 

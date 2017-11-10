@@ -1,9 +1,9 @@
-package polimorfizm;
+package abstrakcja;
 
 /**
  * Created by karol on 02.10.17.
  */
-public  class Figura {
+public  abstract class Figura {
 
     public String color;
     public boolean wypelnienie;
@@ -23,6 +23,7 @@ public  class Figura {
         System.out.println( "Kolor :" + color + ", wypelnienie: " + wypelnienie);
     }
 
+    public abstract double obliczPole();
 
 
 }
