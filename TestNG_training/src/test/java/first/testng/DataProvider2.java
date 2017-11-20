@@ -23,8 +23,7 @@ public class DataProvider2 {
 
     @Test(dataProvider = "number")
     public void checkMe(Integer n) {
-        evenNumberChecker.check(n);
-        System.out.println(n);
+        System.out.println(evenNumberChecker.check(n));
     }
 
 }
