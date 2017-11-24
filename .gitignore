@@ -23,3 +23,7 @@ hs_err_pid*
 
 .idea/*
 TestNG_training/.idea/*
+MultipleBrowser/.idea/workspace.xml
+WikipediaTests/.idea/modules.xml
+WikipediaTests/.idea/workspace.xml
+
