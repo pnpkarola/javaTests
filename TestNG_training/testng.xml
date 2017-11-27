@@ -2,6 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="TestAll">
 
+    <!--<groups>-->
+        <!--<run>-->
+            <!--<include name="functest" />-->
+        <!--</run>-->
+    <!--</groups>-->
+
     <test name="tests_NG">
         <!--<groups>-->
             <!--<run>-->
@@ -20,11 +26,13 @@
             <!--<class name="first.testng.TestngAnnotationExecutionProcedure"/>-->
             <!--<class name="main.testng.MessageUtil"/>-->
             <!--<class name="first.testng.IgnoreTest"/>-->
-            <!--<class name="first.testng.ExceptionHandlingTest"/>-->
+            <class name="first.testng.ExceptionHandlingTest"/>
            <!--<class name="first.testng.DependencyTest"/>-->
             <!--<class name="first.testng.ParametrizedSuperSimple"/>-->
-            <class name="first.testng.DataProvider2"/>
-            <!--<class name="first.testng.Parametrized"/>-->
+            <!--<class name="first.testng.DataProvider2"/>-->
+            <class name="first.testng.Parametrized"/>
+            <!--<class name="first.testng.GroupTestExample"></class>-->
+            <class name="first.testng.ReadExcelDataProvider"></class>
         </classes>
 
     </test>
