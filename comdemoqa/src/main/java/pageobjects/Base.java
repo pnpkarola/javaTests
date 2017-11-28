@@ -18,6 +18,14 @@ public class Base {
          return driver.getCurrentUrl();
     }
 
+    public static void myPause(int pause){
+        try {
+            Thread.sleep(pause);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
 
 
 

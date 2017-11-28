@@ -42,6 +42,51 @@ public class ReadExcelDataProvider {
     }
 
 
+
+    //    /**
+//     * @param File Name
+//     * @param Sheet Name
+//     * @return
+//     */
+    public String[][] getExcelData(String fileName, String sheetName) {
+        String[][] arrayExcelData = null;
+        try {
+            FileInputStream fs = new FileInputStream(fileName);
+            Workbook wb = Workbook.getWorkbook(fs);
+            Sheet sh = wb.getSheet(sheetName);
+
+            int totalNoOfCols = sh.getColumns();
+            int totalNoOfRows = sh.getRows();
+
+            arrayExcelData = new String[totalNoOfRows - 1][totalNoOfCols];
+
+            for (int i = 1; i < totalNoOfRows; i++) {
+
+                for (int j = 0; j < totalNoOfCols; j++) {
+                    arrayExcelData[i - 1][j] = sh.getCell(j, i).getContents();
+                }
+
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+            e.printStackTrace();
+        } catch (BiffException e) {
+            e.printStackTrace();
+        }
+        return arrayExcelData;
+    }
+
+
+    @DataProvider(name = "empLogin")
+    public Object[][] loginData() {
+        Object[][] arrayObject = getExcelData("/home/karol/javaTests/TestNG_training/src/excelFile.xls", "Sheet1");
+        System.out.println(arrayObject);
+        return arrayObject;
+    }
+
+
     @Test(dataProvider = "empLogin")
 
     public void VerifyInvalidLogin(String userName, String password) {
@@ -89,47 +134,7 @@ public class ReadExcelDataProvider {
 
     }
 
-    @DataProvider(name = "empLogin")
-    public Object[][] loginData() {
-        Object[][] arrayObject = getExcelData("/home/karol/javaTests/TestNG_training/src/excelFile.xls", "Sheet1");
-        System.out.println(arrayObject);
-        return arrayObject;
-    }
 
-    //    /**
-//     * @param File Name
-//     * @param Sheet Name
-//     * @return
-//     */
-    public String[][] getExcelData(String fileName, String sheetName) {
-        String[][] arrayExcelData = null;
-        try {
-            FileInputStream fs = new FileInputStream(fileName);
-            Workbook wb = Workbook.getWorkbook(fs);
-            Sheet sh = wb.getSheet(sheetName);
-
-            int totalNoOfCols = sh.getColumns();
-            int totalNoOfRows = sh.getRows();
-
-            arrayExcelData = new String[totalNoOfRows - 1][totalNoOfCols];
-
-            for (int i = 1; i < totalNoOfRows; i++) {
-
-                for (int j = 0; j < totalNoOfCols; j++) {
-                    arrayExcelData[i - 1][j] = sh.getCell(j, i).getContents();
-                }
-
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-            e.printStackTrace();
-        } catch (BiffException e) {
-            e.printStackTrace();
-        }
-        return arrayExcelData;
-    }
 
     @Test
     public void tearDown() {

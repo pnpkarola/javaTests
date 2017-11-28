@@ -26,11 +26,11 @@
             <!--<class name="first.testng.TestngAnnotationExecutionProcedure"/>-->
             <!--<class name="main.testng.MessageUtil"/>-->
             <!--<class name="first.testng.IgnoreTest"/>-->
-            <class name="first.testng.ExceptionHandlingTest"/>
+            <!--<class name="first.testng.ExceptionHandlingTest"/>-->
            <!--<class name="first.testng.DependencyTest"/>-->
             <!--<class name="first.testng.ParametrizedSuperSimple"/>-->
             <!--<class name="first.testng.DataProvider2"/>-->
-            <class name="first.testng.Parametrized"/>
+            <!--<class name="first.testng.Parametrized"/>-->
             <!--<class name="first.testng.GroupTestExample"></class>-->
             <class name="first.testng.ReadExcelDataProvider"></class>
         </classes>
