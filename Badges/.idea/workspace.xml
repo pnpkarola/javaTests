@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c76c6b3e-6d34-4f77-90bf-bb7993a9851c" name="Default" comment="&quot;added 5 sec to implicite wait&quot;">
+    <list default="true" id="c76c6b3e-6d34-4f77-90bf-bb7993a9851c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/Tests.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Tests.java" />
     </list>
     <ignored path="Badges.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -651,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514062140147</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;added 10&quot;">
+      <created>1514063006555</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514063006555</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -752,7 +758,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;nonon&quot;" />
     <MESSAGE value="&quot;added 5 sec to implicite wait&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;added 5 sec to implicite wait&quot;" />
+    <MESSAGE value="&quot;added 10&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;added 10&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
