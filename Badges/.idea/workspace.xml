@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c76c6b3e-6d34-4f77-90bf-bb7993a9851c" name="Default" comment="">
+    <list default="true" id="c76c6b3e-6d34-4f77-90bf-bb7993a9851c" name="Default" comment="&quot;added 10&quot;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/Tests.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Tests.java" />
     </list>
     <ignored path="Badges.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,11 +61,10 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+              <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1514062961764" expanded="false" signature="1023:1034" ph=" { " />
-                <marker date="1514062961764" expanded="false" signature="1048:1054" ph=" }" />
+                <marker date="1514063718647" expanded="false" signature="1030:1041" ph=" { " />
               </folding>
             </state>
           </provider>
@@ -657,7 +657,21 @@
       <option name="project" value="LOCAL" />
       <updated>1514063006555</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;added 10&quot;">
+      <created>1514063021025</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514063021025</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;added 10&quot;">
+      <created>1514063249464</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1514063249464</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -804,8 +818,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1514062961764" expanded="false" signature="1023:1034" ph=" { " />
-            <marker date="1514062961764" expanded="false" signature="1048:1054" ph=" }" />
+            <marker date="1514063718647" expanded="false" signature="1030:1041" ph=" { " />
           </folding>
         </state>
       </provider>
@@ -864,8 +877,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1514062961764" expanded="false" signature="1023:1034" ph=" { " />
-            <marker date="1514062961764" expanded="false" signature="1048:1054" ph=" }" />
+            <marker date="1514063718647" expanded="false" signature="1030:1041" ph=" { " />
           </folding>
         </state>
       </provider>
@@ -924,8 +936,7 @@
           <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1514062961764" expanded="false" signature="1023:1034" ph=" { " />
-            <marker date="1514062961764" expanded="false" signature="1048:1054" ph=" }" />
+            <marker date="1514063718647" expanded="false" signature="1030:1041" ph=" { " />
           </folding>
         </state>
       </provider>
@@ -1010,11 +1021,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1514062961764" expanded="false" signature="1023:1034" ph=" { " />
-            <marker date="1514062961764" expanded="false" signature="1048:1054" ph=" }" />
+            <marker date="1514063718647" expanded="false" signature="1030:1041" ph=" { " />
           </folding>
         </state>
       </provider>
