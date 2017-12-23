@@ -18,10 +18,10 @@ public class Home extends BasePage {
     public Home(WebDriver driver){
         super(driver);
     }
-//    public Boolean elementOnHomePageIsDisplayed(){
-//    Boolean k=super.verifyDisplay(badgeCollection);
-//    return k;
-//    }
+    public Boolean elementOnHomePageIsDisplayed(){
+    Boolean k=super.verifyDisplay(badgeCollection);
+    return k;
+    }
 
     public void checkSuccessfullLogin(){
         super.verifyDisplay(badgeCollection);

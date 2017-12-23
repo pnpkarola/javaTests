@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by karol on 31.10.17.
  */
-public class BasePage {
+public abstract class BasePage {
     protected WebDriver driver;
 
     public BasePage(WebDriver driver) {
