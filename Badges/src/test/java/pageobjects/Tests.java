@@ -20,7 +20,7 @@ public class Tests {
     @BeforeTest
     public void setup() {
         driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(URL);
     }
 
