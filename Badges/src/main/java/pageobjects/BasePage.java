@@ -17,7 +17,7 @@ public abstract class BasePage {
 
     protected Boolean verifyDisplay(WebElement element) {
         if (element.isDisplayed()) {
-            System.out.println("DISPLAYED4");
+            System.out.println("DISPLAYED6");
             return true;
         }
         else if(element.isEnabled()) {
