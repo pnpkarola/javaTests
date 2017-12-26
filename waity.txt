@@ -1,0 +1,54 @@
+SYNCHRONIZATION
+
+http://www.seleniumeasy.com/selenium-tutorials/synchronization-in-selenium-webdriver
+
+Implicit Wait.
+WebDriver driver = new FirefoxDriver();
+driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+driver.get("http://www.google.com");
+
+
+Explicit Wait:
+We need to define a wait statement for certain condition to be satisfied until the specified timeout period. If the Webdriver finds the element within the timeout period the code will get executed.
+WebDriverWait wait = new WebDriverWait(driver, 10);
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("statedropdown")));
+
+isElementPresent:
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.presenceOfElementLocated(locator)); 
+
+WebElement element = driver.findElements(By.cssSelector(""));
+element.size()>0;
+
+
+isElementClickable
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.elementToBeClickable(locator));
+
+
+isElementVisible
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+ wait.until(ExpectedConditions.visibilityOf(element));
+
+List<WebElement> linkElements = driver.findelements(By.cssSelector('#linkhello'));
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+ wait.until(ExpectedConditions.visibilityOfAllElements(linkElements));
+
+isElementInVisible
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+
+isElementEnabled 
+WebElement element = driver.findElement(By.id(""));
+element.isEnabled();
+
+isElementDisplayed
+WebElement element = driver.findElement(By.id(""));
+element.isDisplayed();
+
+
+
+
