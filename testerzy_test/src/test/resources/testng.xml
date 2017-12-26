@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll" verbose="1" thread-count="1" parallel="false">
+
+    <test name="tests_AdminTesty">
+        <classes>
+            <class name="pl.testerzy.MenuTest"/>
+            <class name="pl.testerzy.SearchingTest"/>
+            <class name="pl.testerzy.CookieTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="17138" started-at="2017-04-02T20:25:08Z" finished-at="2017-04-02T20:25:25Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="17138" started-at="2017-04-02T20:25:08Z" finished-at="2017-04-02T20:25:25Z">
+      <class name="MenuTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:MenuTest@246ae04d]" name="openBrowser" is-config="true" duration-ms="4135" started-at="2017-04-02T22:25:08Z" finished-at="2017-04-02T22:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openSite()[pri:0, instance:MenuTest@246ae04d]" name="openSite" is-config="true" duration-ms="9203" started-at="2017-04-02T22:25:12Z" finished-at="2017-04-02T22:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method status="PASS" signature="shouldOpenKnowledgeBasePage()[pri:0, instance:MenuTest@246ae04d]" name="shouldOpenKnowledgeBasePage" duration-ms="2946" started-at="2017-04-02T22:25:21Z" finished-at="2017-04-02T22:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldOpenKnowledgeBasePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:MenuTest@246ae04d]" name="closeBrowser" is-config="true" duration-ms="842" started-at="2017-04-02T22:25:24Z" finished-at="2017-04-02T22:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- MenuTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

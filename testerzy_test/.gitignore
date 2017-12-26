@@ -1,0 +1,10 @@
+# Compiled source #
+###################
+*.class
+
+# Others #
+######################
+.idea
+testerzy_tests.iml
+target
+FailedTestsScreenshots
