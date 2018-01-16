@@ -17,17 +17,15 @@ public class FirstTests {
 
 
     @Test
-    public void Test1(){
-
-        System.out.println("1111111111111");
-        Assert.assertEquals(2,2);
+    public void Test1a(){
+   Assert.assertEquals(2,2);
 
 
 
     }
 
     @Test
-    public void Test2(){
+    public void Test2b(){
 
         Assert.assertEquals(2,2);
 

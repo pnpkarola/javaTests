@@ -8,13 +8,21 @@ import org.openqa.selenium.WebElement;
  * Created by karol on 14.01.18.
  */
 public class LoginPage extends Base {
-    WebDriver driver;
+
+    WebDriver wd;
 
 public LoginPage (WebDriver driver){
-    this.driver = driver;
+    this.wd = driver;
 }
 
-public WebElement inputSearch(){return driver.findElement(By.id("searchInput"));}
+
+public WebElement inputSearch(){return wd.findElement(By.id("searchInput"));}
+
+public void ObrazRudika(){
+    System.out.println("Rudik Ty szczurze");
+}
+
+
 
 
 

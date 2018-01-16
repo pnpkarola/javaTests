@@ -23,10 +23,11 @@ public class Second extends Base{
     @Test
     public void checkWiki(){
 
-      lp = new LoginPage(driver);
+      lp = new LoginPage(wd);
       lp.inputSearch().click();
       lp.inputSearch().sendKeys("klkllk");
         System.out.println("ss");
+        lp.ObrazRudika();
 
 
 

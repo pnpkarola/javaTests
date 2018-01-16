@@ -2,6 +2,7 @@ package tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.seleniumhq.selenium.fluent.FluentWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -15,16 +16,23 @@ public class Base {
 
     WebDriver driver;
 
+
+
+    WebDriver wd;
+    FluentWebDriver fwd;
+
+
     @BeforeTest
     public void setup() {
-        driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.get("https://www.wikipedia.org/");
+        fwd = new FluentWebDriver(wd);
+        wd = new FirefoxDriver();
+        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        wd.get("https://www.wikipedia.org/");
     }
 
     @AfterTest
     public void tearDown(){
-        driver.quit();
+        wd.quit();
     }
 }
 
