@@ -23,11 +23,21 @@ public class Second extends Base{
     @Test
     public void checkWiki(){
 
-      lp = new LoginPage(wd);
-      lp.inputSearch().click();
-      lp.inputSearch().sendKeys("klkllk");
-        System.out.println("ss");
-        lp.ObrazRudika();
+      lp = new LoginPage(fwd);
+//      lp.searchInputSelector.sendKeys("bbbbbbbbbbb");
+        System.out.println(lp.getClass());
+ //       lp.me();
+//      lp.inputSearch().click();
+//      lp.inputSearch().sendKeys("klkllk");
+//        System.out.println("ss");
+      //  lp.checkME();
+
+//       lp.getSearchFormInput().sendKeys("zazazazaza");
+//        System.out.println("ceck:"+ lp.getSearchFormInput());
+//        lp.getSearchFormInput().size();
+        lp.getSearchFormInput().click();
+
+        System.out.println("SIZE: "+lp.getSearchFormInput().click());
 
 
 

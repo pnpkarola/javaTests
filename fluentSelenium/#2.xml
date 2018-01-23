@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 2" verbose="1" >
+    <test name="Regression suite 2" >
+        <classes>
+
+            <class name="tests.Third"/>
+            <class name="tests.Fourth"/>
+
+        </classes>
+    </test>
+</suite>

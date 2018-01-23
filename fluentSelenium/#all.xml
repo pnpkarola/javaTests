@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="alll" verbose="1" preserver-order="false" >
+    <suite-files>
+        <suite-file path="#1.xml"></suite-file>
+        <suite-file path="#2.xml"></suite-file>
+    </suite-files>
+
+</suite>
