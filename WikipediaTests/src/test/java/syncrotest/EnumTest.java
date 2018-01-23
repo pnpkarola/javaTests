@@ -5,9 +5,11 @@ package syncrotest;
  */
 public class EnumTest {
 
-    public enum Day {
+    public enum Day
+
+    {
         SUNDAY, MONDAY, TUESDAY, WEDNESDAY,
-        THURSDAY, FRIDAY, SATURDAY
+                THURSDAY, FRIDAY, SATURDAY
     }
 
     Day day;

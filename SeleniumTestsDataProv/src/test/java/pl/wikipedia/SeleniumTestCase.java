@@ -17,7 +17,7 @@ public class SeleniumTestCase {
     //    private HomePage homePage;
     private final static String URL = "https://pl.wikipedia.org";
 
-    @Parameters({"sUsername","sPassword"})
+    @Parameters({"sUsername", "sPassword"})
 //    @BeforeTest
 //    public void setup() {
 //        driver = new FirefoxDriver();
@@ -34,7 +34,6 @@ public class SeleniumTestCase {
 //        System.out.println("Parameter Example: Data(" + p1 + ", " + p2 + ")");
 //        System.out.println(p2);
 //    }
-
 
 
     @DataProvider
@@ -55,16 +54,15 @@ public class SeleniumTestCase {
         driver.get(URL);
     }
 
-    @Test(dataProvider="getData")
+    @Test(dataProvider = "getData")
 
     public void login(String p1, String p2) {
         System.out.println("dejtaprov: Data(" + p1 + ", " + p2 + ")");
         loginPage = new LoginPage(driver);
         System.out.println(loginPage.getCurrentUrl());
-        HomePage homePage = loginPage.LoginToHomePage(p1,p2);
+        HomePage homePage = loginPage.LoginToHomePage(p1, p2);
         System.out.println(homePage.getCurrentUrl());
     }
-
 
 
     @AfterMethod

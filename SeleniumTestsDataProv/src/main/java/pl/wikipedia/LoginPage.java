@@ -13,21 +13,21 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//*[@id='pt-login']/a")
     private WebElement lnkZaloguj;
 
-    @FindBy(id ="wpName1")
+    @FindBy(id = "wpName1")
     private WebElement inputUsername;
 
-    @FindBy(id="wpPassword1")
-    private  WebElement inputPassword;
+    @FindBy(id = "wpPassword1")
+    private WebElement inputPassword;
 
-    @FindBy(id="wpLoginAttempt")
+    @FindBy(id = "wpLoginAttempt")
     private WebElement btnZaloguj;
 
     public LoginPage(WebDriver driver) {
         super(driver);
     }
 
-//    @Parameters({"sUsername","sPassword"})
-    public HomePage LoginToHomePage(String p1,String p2){
+    //    @Parameters({"sUsername","sPassword"})
+    public HomePage LoginToHomePage(String p1, String p2) {
         lnkZaloguj.click();
         inputUsername.sendKeys(p1);
         inputPassword.sendKeys(p2);

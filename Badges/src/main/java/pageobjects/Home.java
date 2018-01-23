@@ -15,20 +15,21 @@ public class Home extends BasePage {
     @FindBy(xpath = "//*[@id='jb-header']/div/div[1]/ul/li[5]/a/span")
     public WebElement signout;
 
-    public Home(WebDriver driver){
+    public Home(WebDriver driver) {
         super(driver);
     }
-    public Boolean elementOnHomePageIsDisplayed(){
-    Boolean k=super.verifyDisplay(badgeCollection);
-    return k;
+
+    public Boolean elementOnHomePageIsDisplayed() {
+        Boolean k = super.verifyDisplay(badgeCollection);
+        return k;
     }
 
-    public void checkSuccessfullLogin(){
+    public void checkSuccessfullLogin() {
         super.verifyDisplay(badgeCollection);
         super.verifyDisplay(signout);
     }
 
-    public Logout  logout(){
+    public Logout logout() {
         signout.click();
         System.out.println("Signout clicked");
         return new Logout(driver);

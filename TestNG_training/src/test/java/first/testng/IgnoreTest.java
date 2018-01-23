@@ -1,4 +1,5 @@
 package first.testng;
+
 import main.testng.MessageUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;

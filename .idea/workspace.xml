@@ -2,13 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a99e4db0-5088-4051-8608-33bcd8e5981e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__junit_junit_4_10.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/workspace.xml" afterPath="$PROJECT_DIR$/fluentSelenium/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fluentSelenium/fluentSelenium.iml" afterPath="$PROJECT_DIR$/fluentSelenium/fluentSelenium.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fluentSelenium/pom.xml" afterPath="$PROJECT_DIR$/fluentSelenium/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Base.java" afterPath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Base.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/LoginPage.java" afterPath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Second.java" afterPath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Second.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/#1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/#2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/#all.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_assertj_assertj_core_3_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_atteo_classindex_classindex_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_5_v20170502.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_5_v20170502.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_5_v20170502.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_5_v20170502.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_5_v20170502.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_5_v20170502.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_5_v20170502.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_fluentlenium_fluentlenium_assertj_3_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_fluentlenium_fluentlenium_core_3_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_fluentlenium_fluentlenium_junit_3_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_fluent_fluent_selenium_1_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_testng_testng_6_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/fluentSelenium.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Base.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/FirstTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Fourth.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/LoginPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Second.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Third.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArrayList/src/com/company/Wyliczeniowy.java" afterPath="$PROJECT_DIR$/ArrayList/src/com/company/Wyliczeniowy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Badges/src/main/java/pageobjects/BasePage.java" afterPath="$PROJECT_DIR$/Badges/src/main/java/pageobjects/BasePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Badges/src/main/java/pageobjects/Home.java" afterPath="$PROJECT_DIR$/Badges/src/main/java/pageobjects/Home.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Badges/src/main/java/pageobjects/Logout.java" afterPath="$PROJECT_DIR$/Badges/src/main/java/pageobjects/Logout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Badges/src/test/java/pageobjects/Tests.java" afterPath="$PROJECT_DIR$/Badges/src/test/java/pageobjects/Tests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SeleniumTestsDataProv/pom.xml" afterPath="$PROJECT_DIR$/SeleniumTestsDataProv/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SeleniumTestsDataProv/src/main/java/pl/wikipedia/BasePage.java" afterPath="$PROJECT_DIR$/SeleniumTestsDataProv/src/main/java/pl/wikipedia/BasePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SeleniumTestsDataProv/src/main/java/pl/wikipedia/HomePage.java" afterPath="$PROJECT_DIR$/SeleniumTestsDataProv/src/main/java/pl/wikipedia/HomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SeleniumTestsDataProv/src/main/java/pl/wikipedia/LoginPage.java" afterPath="$PROJECT_DIR$/SeleniumTestsDataProv/src/main/java/pl/wikipedia/LoginPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SeleniumTestsDataProv/src/test/java/pl/wikipedia/SeleniumTestCase.java" afterPath="$PROJECT_DIR$/SeleniumTestsDataProv/src/test/java/pl/wikipedia/SeleniumTestCase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SeleniumTestsDataProv/testng.xml" afterPath="$PROJECT_DIR$/SeleniumTestsDataProv/testng.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/src/main/java/main/testng/EvenNumberChecker.java" afterPath="$PROJECT_DIR$/TestNG_training/src/main/java/main/testng/EvenNumberChecker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/src/main/java/main/testng/ExceptionHandling.java" afterPath="$PROJECT_DIR$/TestNG_training/src/main/java/main/testng/ExceptionHandling.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/src/main/java/main/testng/MessageUtil.java" afterPath="$PROJECT_DIR$/TestNG_training/src/main/java/main/testng/MessageUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/DataProvider1.java" afterPath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/DataProvider1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/DependencyTest.java" afterPath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/DependencyTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/ExceptionHandlingTest.java" afterPath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/ExceptionHandlingTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/GroupTestExample.java" afterPath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/GroupTestExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/IgnoreTest.java" afterPath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/IgnoreTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/Parametrized.java" afterPath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/Parametrized.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/TestNGSimpleTest.java" afterPath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/TestNGSimpleTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/TestngAnnotationExecutionProcedure.java" afterPath="$PROJECT_DIR$/TestNG_training/src/test/java/first/testng/TestngAnnotationExecutionProcedure.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG_training/testng.xml" afterPath="$PROJECT_DIR$/TestNG_training/testng.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WikipediaTests/src/test/java/syncrotest/EnumTest.java" afterPath="$PROJECT_DIR$/WikipediaTests/src/test/java/syncrotest/EnumTest.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,18 +116,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Second.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Second.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +124,19 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/FirstTests.java" />
+        <option value="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Fourth.java" />
+        <option value="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/LoginPage.java" />
+        <option value="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Second.java" />
+        <option value="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Third.java" />
+        <option value="$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Base.java" />
+        <option value="$PROJECT_DIR$/fluentSelenium/pom.xml" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -64,8 +160,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -78,75 +175,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fluentSelenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fluentSelenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fluentSelenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,7 +186,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG./home/karol/javaTests/fluentSelenium/#2.xml">
+  <component name="RunManager" selected="TestNG./home/karol/javaTests/fluentSelenium/#1.xml">
     <configuration default="false" name="/home/karol/javaTests/fluentSelenium/#all.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="javaTests" />
@@ -479,10 +509,10 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="TestNG./home/karol/javaTests/fluentSelenium/#2.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG./home/karol/javaTests/fluentSelenium/#all.xml" />
-        <item index="2" class="java.lang.String" itemvalue="Gauge Execution.Specifications" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG./home/karol/javaTests/fluentSelenium/#1.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG./home/karol/javaTests/fluentSelenium/#1.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG./home/karol/javaTests/fluentSelenium/#2.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG./home/karol/javaTests/fluentSelenium/#all.xml" />
+        <item index="3" class="java.lang.String" itemvalue="Gauge Execution.Specifications" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +530,22 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="_home_karol_javaTests_fluentSelenium_#1_xml - 2018.01.23 at 11h 24m 59s.xml">
+      <configuration name="/home/karol/javaTests/fluentSelenium/#1.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_karol_javaTests_fluentSelenium_#1_xml - 2018.01.23 at 11h 27m 57s.xml">
+      <configuration name="/home/karol/javaTests/fluentSelenium/#1.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_karol_javaTests_fluentSelenium_#1_xml - 2018.01.23 at 11h 28m 35s.xml">
+      <configuration name="/home/karol/javaTests/fluentSelenium/#1.xml" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="_home_karol_javaTests_fluentSelenium_#2_xml - 2018.01.23 at 11h 08m 31s.xml">
+      <configuration name="/home/karol/javaTests/fluentSelenium/#2.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_karol_javaTests_fluentSelenium_#2_xml - 2018.01.23 at 11h 22m 08s.xml">
+      <configuration name="/home/karol/javaTests/fluentSelenium/#2.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_karol_javaTests_fluentSelenium_#2_xml - 2018.01.23 at 11h 24m 53s.xml">
       <configuration name="/home/karol/javaTests/fluentSelenium/#2.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_home_karol_javaTests_fluentSelenium_#all_xml - 2018.01.23 at 11h 07m 44s.xml">
@@ -523,13 +568,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -541,7 +587,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -560,6 +605,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fluentSelenium/src/test/java/tests/FirstTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Fourth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fluentSelenium/src/test/java/tests/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fluentSelenium/#all.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Second.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Third.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fluentSelenium/src/test/java/tests/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fluentSelenium/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>

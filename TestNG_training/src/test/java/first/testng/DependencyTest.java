@@ -15,7 +15,7 @@ public class DependencyTest {
         Assert.assertEquals(message, messageUtil.printMessage());
     }
 
-    @Test(dependsOnMethods = { "initEnvironmentTest" })
+    @Test(dependsOnMethods = {"initEnvironmentTest"})
     public void testSalutationMessage() {
         System.out.println("Inside testSalutationMessage()");
         message = "Hi!" + "Manisha";
@@ -24,7 +24,7 @@ public class DependencyTest {
 
     @Test
     public void initEnvironmentTest() {
-        Assert.assertEquals(1,1);
+        Assert.assertEquals(1, 1);
         System.out.println("This is initEnvironmentTest");
     }
 

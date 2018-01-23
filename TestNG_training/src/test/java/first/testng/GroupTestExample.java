@@ -8,32 +8,32 @@ import org.testng.annotations.Test;
 public class GroupTestExample {
 
 
-        String message = ".com";
-        GroupTest messageUtil = new GroupTest(message);
+    String message = ".com";
+    GroupTest messageUtil = new GroupTest(message);
 
-        @Test(groups = { "functest", "checkintest" })
+    @Test(groups = {"functest", "checkintest"})
 
-        public void testPrintMessage() {
-            System.out.println("Inside testPrintMessage()");
-            message = ".com";
-            Assert.assertEquals(message, messageUtil.printMessage());
-        }
-
-        @Test(groups = { "checkintest" })
-
-        public void testSalutationMessage() {
-            System.out.println("Inside testSalutationMessage()");
-            message = "tutorialspoint" + ".com";
-            Assert.assertEquals(message, messageUtil.salutationMessage());
-        }
-
-        @Test(groups = { "functest" })
-
-        public void testingExitMessage() {
-            System.out.println("Inside testExitMessage()");
-            message = "www." + "tutorialspoint"+".com";
-            Assert.assertEquals(message, messageUtil.exitMessage());
-        }
+    public void testPrintMessage() {
+        System.out.println("Inside testPrintMessage()");
+        message = ".com";
+        Assert.assertEquals(message, messageUtil.printMessage());
     }
+
+    @Test(groups = {"checkintest"})
+
+    public void testSalutationMessage() {
+        System.out.println("Inside testSalutationMessage()");
+        message = "tutorialspoint" + ".com";
+        Assert.assertEquals(message, messageUtil.salutationMessage());
+    }
+
+    @Test(groups = {"functest"})
+
+    public void testingExitMessage() {
+        System.out.println("Inside testExitMessage()");
+        message = "www." + "tutorialspoint" + ".com";
+        Assert.assertEquals(message, messageUtil.exitMessage());
+    }
+}
 
 

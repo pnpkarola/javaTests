@@ -4,9 +4,9 @@
 
     <test name="tests_NG">
         <!--<groups>-->
-            <!--<run>-->
-                <!--<include name="functest" />-->
-            <!--</run>-->
+        <!--<run>-->
+        <!--<include name="functest" />-->
+        <!--</run>-->
         <!--</groups>-->
         <parameter name="myName" value="Karol"/>
         <parameter name="myPass" value="QEW@#@#W22"/>
@@ -21,7 +21,7 @@
             <!--<class name="main.testng.MessageUtil"/>-->
             <!--<class name="first.testng.IgnoreTest"/>-->
             <!--<class name="first.testng.ExceptionHandlingTest"/>-->
-           <!--<class name="first.testng.DependencyTest"/>-->
+            <!--<class name="first.testng.DependencyTest"/>-->
             <!--<class name="first.testng.ParametrizedSuperSimple"/>-->
             <class name="first.testng.DataProvider2"/>
             <!--<class name="first.testng.Parametrized"/>-->

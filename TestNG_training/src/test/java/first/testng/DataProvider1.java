@@ -17,7 +17,7 @@ public class DataProvider1 {
 
     @DataProvider(name = "test1")
     public static Object[][] primeNumbers() {
-        return new Object[][] {{2, true}, {6, false}, {19, true}, {22, false}, {23, true},{20,false},{21,false}};
+        return new Object[][]{{2, true}, {6, false}, {19, true}, {22, false}, {23, true}, {20, false}, {21, false}};
     }
 
     // This test will run 4 times since we have 5 parameters defined

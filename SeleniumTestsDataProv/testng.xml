@@ -5,15 +5,10 @@
     <test name="tests_AdminTesty">
 
 
-
         <classes>
             <class name="pl.wikipedia.SeleniumTestCase"/>
             <parameter name="sUsername" value="kjagla"/>
             <parameter name="sPassword" value="wiki.098"/>
-
-
-
-
 
 
         </classes>

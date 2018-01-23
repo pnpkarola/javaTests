@@ -17,7 +17,7 @@ public class Logout extends BasePage {
     }
 
 
-     public Boolean we = super.verifyDisplay(inptEmailAddress);
+    public Boolean we = super.verifyDisplay(inptEmailAddress);
 
 
 }

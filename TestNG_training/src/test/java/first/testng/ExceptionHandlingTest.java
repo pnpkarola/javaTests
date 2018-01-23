@@ -18,7 +18,7 @@ public class ExceptionHandlingTest {
     }
 
     @Test
-    public void printSmth(){
+    public void printSmth() {
         System.out.println("SMTH");
 
     }

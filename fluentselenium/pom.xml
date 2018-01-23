@@ -4,21 +4,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>pl.wikipedia</groupId>
-    <artifactId>pl.wikipedia.tests</artifactId>
+    <groupId>one.more.fluentselenium</groupId>
+    <artifactId>one.more.fluentselenium</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.5.2</version>
+            <version>3.8.1</version>
         </dependency>
 
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.8</version>
+            <version>6.13.1</version>
+            <scope>test</scope>
         </dependency>
+
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium.fluent</groupId>
+            <artifactId>fluent-selenium</artifactId>
+            <version>1.19</version>
+        </dependency>
+
+
+
+
     </dependencies>
+
 
 </project>

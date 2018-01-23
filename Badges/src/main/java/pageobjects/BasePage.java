@@ -19,8 +19,7 @@ public abstract class BasePage {
         if (element.isDisplayed()) {
             System.out.println("DISPLAYED6");
             return true;
-        }
-        else if(element.isEnabled()) {
+        } else if (element.isEnabled()) {
             System.out.println("ENABLED");
             return true;
         } else {
