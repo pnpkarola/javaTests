@@ -1,5 +1,6 @@
 package pageobjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -14,6 +15,8 @@ public abstract class BasePage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
+  public  WebElement j (){return driver.findElement(By.id("lkkk"));}
 
     protected Boolean verifyDisplay(WebElement element) {
         if (element.isDisplayed()) {

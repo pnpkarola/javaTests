@@ -25,6 +25,7 @@ public class Login extends BasePage {
         inptEmailAddress.sendKeys(username);
         inptPassword.sendKeys(password);
         btnSignIn.click();
+        j().click();
         return new Home(driver);
     }
 
